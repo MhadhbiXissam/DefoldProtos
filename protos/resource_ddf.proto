@@ -1,0 +1,14 @@
+syntax = "proto2";
+package dmResourceDDF;
+
+import "ddf_extensions.proto";
+import "ddf_math.proto";
+
+option java_package = "com.dynamo.resource.proto";
+option java_outer_classname = "Resource";
+
+message Reload
+{
+    repeated string resources = 1;
+}
+
